@@ -17,7 +17,7 @@ function getMealList(){
                     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3> ${meal.strMeal}</h3>
-                        <button> View Detail</button>
+                        <button > View Detail</button>
                     </div>
                     </div>
                `
@@ -29,3 +29,7 @@ function getMealList(){
     })
 
 }
+
+
+
+
