@@ -1,0 +1,20 @@
+*body{
+    margin: 0;
+}
+#food{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    width: 80%;
+    margin:auto;
+}
+#food img{
+    width: 100%;
+}
+.not-found{
+    grid-template-columns: 1fr!important;
+    color: indianred;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+}
